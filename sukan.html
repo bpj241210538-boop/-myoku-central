@@ -107,15 +107,15 @@
                 </div>
             </a>
 
-            <div class="hidden md:flex items-center gap-6">
+            <div class="flex items-center gap-3 md:gap-6">
                 <a href="index.html" class="font-bold hover:text-brand-600 transition" x-text="txt[lang].menu_home">Utama</a>
                 <a href="#badan" class="font-bold hover:text-brand-600 transition" x-text="txt[lang].menu_bodies">Badan Sukan</a>
                 <a href="#insentif" class="font-bold hover:text-brand-600 transition" x-text="txt[lang].menu_incentive">Insentif</a>
                 
-                <button @click="showSettings = true" class="bg-gray-900 dark:bg-white text-white dark:text-gray-900 px-5 py-2 rounded-full font-bold text-sm hover:opacity-80 transition flex items-center gap-2 shadow-xl">
-                    <i class="fas fa-cog animate-spin-slow"></i> 
-                    <span x-text="txt[lang].btn_settings">Tetapan</span>
-                </button>
+                 <button @click="showSettings = true" class="bg-gray-900 dark:bg-white text-white dark:text-gray-900 px-4 md:px-5 py-2 rounded-full font-bold text-sm hover:opacity-80 transition flex items-center gap-2 shadow-xl">
+        <i class="fas fa-cog animate-spin-slow"></i> 
+        <span x-text="txt[lang].btn_settings">Tetapan</span>
+    </button>
             </div>
         </div>
     </nav>
@@ -1033,4 +1033,5 @@ organizations: [
         }
     </script>
 </body>
+
 </html>
