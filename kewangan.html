@@ -104,12 +104,12 @@
                 </div>
             </a>
 
-            <div class="flex items-center gap-4">
+             <div class="flex items-center gap-3 md:gap-6">
                 <a href="index.html" class="hidden md:block font-bold hover:text-brand-600 transition" x-text="txt[lang].menu_home">Utama</a>
-                <button @click="showSettings = true" class="bg-gray-900 dark:bg-white text-white dark:text-gray-900 px-5 py-2 rounded-full font-bold text-sm hover:opacity-80 transition flex items-center gap-2 shadow-xl">
-                    <i class="fas fa-cog animate-spin-slow"></i> 
-                    <span x-text="txt[lang].btn_settings">Tetapan</span>
-                </button>
+                 <button @click="showSettings = true" class="bg-gray-900 dark:bg-white text-white dark:text-gray-900 px-4 md:px-5 py-2 rounded-full font-bold text-sm hover:opacity-80 transition flex items-center gap-2 shadow-xl">
+        <i class="fas fa-cog animate-spin-slow"></i> 
+        <span x-text="txt[lang].btn_settings">Tetapan</span>
+    </button>
             </div>
         </div>
     </nav>
@@ -1761,4 +1761,5 @@ colorClass:'bg-slate-500',textClass:'text-slate-600',bgClass:'bg-slate-600 hover
         }
     </script>
 </body>
+
 </html>
